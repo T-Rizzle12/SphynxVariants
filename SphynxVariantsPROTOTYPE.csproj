@@ -124,18 +124,18 @@
     <Content Include="Languages\English\Keyed\Misc_Gameplay.xml" />
     <Content Include="lib\Assembly-CSharp.dll" />
     <Content Include="LoadFolders.xml" />
+    <Content Include="Textures\Things\Pawn\Animal\ChocolateSphynx\ChocolateSphynx_east.png" />
     <Content Include="Textures\Things\Pawn\Animal\LilacSphynx\CatSphynx_north.png" />
     <Content Include="Textures\Things\Pawn\Animal\LilacSphynx\CatSphynx_south.png" />
-    <Content Include="Textures\Things\Pawn\Animal\LilacSphynx\CreamSphynx_east.png" />
     <Content Include="Textures\Things\Pawn\Animal\ChocolateSphynx\CatSphynx_north.png" />
     <Content Include="Textures\Things\Pawn\Animal\ChocolateSphynx\CatSphynx_south.png" />
-    <Content Include="Textures\Things\Pawn\Animal\ChocolateSphynx\CreamSphynx_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\LilacSphynx\LilacSphynx_east.png" />
     <Content Include="Textures\Things\Pawn\Animal\WhiteSphynx\CatSphynx_north.png" />
     <Content Include="Textures\Things\Pawn\Animal\WhiteSphynx\CatSphynx_south.png" />
-    <Content Include="Textures\Things\Pawn\Animal\WhiteSphynx\CreamSphynx_east.png" />
     <Content Include="Textures\Things\Pawn\Animal\CreamSphynx\CatSphynx_north.png" />
     <Content Include="Textures\Things\Pawn\Animal\CreamSphynx\CatSphynx_south.png" />
     <Content Include="Textures\Things\Pawn\Animal\CreamSphynx\CreamSphynx_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\WhiteSphynx\WhiteSphynx_east.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
