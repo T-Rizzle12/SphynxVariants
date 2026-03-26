@@ -184,9 +184,9 @@
     <Content Include="Textures\Things\Item\Resource\AEXP_Fish\AEXP_Fish_c.png" />
     <Content Include="Textures\Things\Item\Resource\AEXP_TigerLeather\AEXP_TigerLeather_a.png" />
     <Content Include="Textures\Things\Item\Resource\AEXP_TigerLeather\AEXP_TigerLeather_b.png" />
-    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatSphynx\CatSphynx_east.png" />
-    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatSphynx\CatSphynx_north.png" />
-    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatSphynx\CatSphynx_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\CreamSphynx\CatSphynx_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\CreamSphynx\CatSphynx_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\CreamSphynx\CreamSphynx_east.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
