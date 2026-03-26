@@ -125,7 +125,7 @@
     <Content Include="lib\Assembly-CSharp.dll" />
     <Content Include="LoadFolders.xml" />
     <Content Include="Textures\Things\Pawn\Animal\BicolorSphynx\BicolorSphynx_east.png" />
-    <Content Include="Textures\Things\Pawn\Animal\BicolorSphynx\BlackSphynx_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\BicolorSphynx\BicolorSphynx_north.png" />
     <Content Include="Textures\Things\Pawn\Animal\BicolorSphynx\CatSphynx_south.png" />
     <Content Include="Textures\Things\Pawn\Animal\BlackSphynx\BlackSphynx_north.png" />
     <Content Include="Textures\Things\Pawn\Animal\BlueSphynx\BlueSphynx_north.png" />
