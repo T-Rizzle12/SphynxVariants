@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{08B2AEA4-2C85-4431-B9D7-A884609FCE65}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SphynxVariants</RootNamespace>
+    <AssemblyName>SphynxVariantsPROTOTYPE</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>embedded</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp, Version=1.6.9438.37837, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1.6NotOdyssey\Defs\GenericToggleableAnimalDefs\GenericToggleableAnimalDefs_NO.xml" />
+    <Content Include="1.6NotOdyssey\Defs\RiverNeedingAnimalDefs\RiverNeedingAnimalDefs_NO.xml" />
+    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Items\Items_Exotic.xml" />
+    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Items\Items_Resource_AnimalProduct_NO.xml" />
+    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Items\Items_Resource_Misc.xml" />
+    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Items\Items_Resource_WoolLeather_NO.xml" />
+    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Races\Races_Expanded_AridShrubland_NO.xml" />
+    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Races\Races_Expanded_BorealForest_NO.xml" />
+    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Races\Races_Expanded_IceSheet_NO.xml" />
+    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Races\Races_Expanded_TemperateForest_NO.xml" />
+    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Races\Races_Expanded_TropicalRainforest_NO.xml" />
+    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Races\Races_Expanded_TropicalSwamp_NO.xml" />
+    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Races\Races_Expanded_Tundra_NO.xml" />
+    <Content Include="1.6NotOdyssey\Patches\AdvancedBiomesPatch_NO.xml" />
+    <Content Include="1.6NotOdyssey\Patches\AlphaBiomesPatch_NO.xml" />
+    <Content Include="1.6NotOdyssey\Patches\CaravansPatch_NO.xml" />
+    <Content Include="1.6NotOdyssey\Patches\NocturnalAnimalsPatch_NO.xml" />
+    <Content Include="1.6\Defs\Bodies\Bodies_Animal_AntleredQuadruped.xml" />
+    <Content Include="1.6\Defs\Bodies\Bodies_Animal_LargeLizardlike.xml" />
+    <Content Include="1.6\Defs\Bodies\Bodies_Animal_Pinniped.xml" />
+    <Content Include="1.6\Defs\Bodies\Bodies_Animal_Platypus.xml" />
+    <Content Include="1.6\Defs\Bodies\Bodies_Animal_Primates.xml" />
+    <Content Include="1.6\Defs\Bodies\Bodies_Animal_TailedBiped.xml" />
+    <Content Include="1.6\Defs\Bodies\BodyPartGroups.xml" />
+    <Content Include="1.6\Defs\Bodies\BodyParts.xml" />
+    <Content Include="1.6\Defs\DamageDefs\DamageDefs.xml" />
+    <Content Include="1.6\Defs\GenericToggleableAnimalDefs\GenericToggleableAnimalDefs.xml" />
+    <Content Include="1.6\Defs\Maneuvers\Maneuvers.xml" />
+    <Content Include="1.6\Defs\RiverNeedingAnimalDefs\RiverNeedingAnimalDefs.xml" />
+    <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Alligator.xml" />
+    <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Anaconda.xml" />
+    <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_ArcticCoyote.xml" />
+    <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Coyote.xml" />
+    <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Crocodile.xml" />
+    <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Gorilla.xml" />
+    <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Hippopotamus.xml" />
+    <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Hyena.xml" />
+    <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Lemur.xml" />
+    <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Lion.xml" />
+    <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Mandrill.xml" />
+    <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_MegaWolverine.xml" />
+    <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Penguin.xml" />
+    <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Rattlesnake.xml" />
+    <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Seal.xml" />
+    <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Tiger.xml" />
+    <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Walrus.xml" />
+    <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Wildebeest.xml" />
+    <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Zebra.xml" />
+    <Content Include="1.6\Defs\ThingDefs_Buildings\Buildings_Natural.xml" />
+    <Content Include="1.6\Defs\ThingDefs_Items\Items_Resource_AnimalProduct.xml" />
+    <Content Include="1.6\Defs\ThingDefs_Items\Items_Resource_WoolLeather.xml" />
+    <Content Include="1.6\Defs\ThingDefs_Races\Races_Expanded_AridShrubland.xml" />
+    <Content Include="1.6\Defs\ThingDefs_Races\Races_Expanded_Australia.xml" />
+    <Content Include="1.6\Defs\ThingDefs_Races\Races_Expanded_BorealForest.xml" />
+    <Content Include="1.6\Defs\ThingDefs_Races\Races_Expanded_Cats.xml" />
+    <Content Include="1.6\Defs\ThingDefs_Races\Races_Expanded_Desert.xml" />
+    <Content Include="1.6\Defs\ThingDefs_Races\Races_Expanded_Dogs.xml" />
+    <Content Include="1.6\Defs\ThingDefs_Races\Races_Expanded_ExtremeDesert.xml" />
+    <Content Include="1.6\Defs\ThingDefs_Races\Races_Expanded_TemperateForest.xml" />
+    <Content Include="1.6\Defs\ThingDefs_Races\Races_Expanded_TropicalRainforest.xml" />
+    <Content Include="1.6\Defs\ThingDefs_Races\Races_Expanded_TropicalSwamp.xml" />
+    <Content Include="1.6\Defs\ThingDefs_Races\Races_Expanded_Tundra.xml" />
+    <Content Include="1.6\Defs\ToolCapacityDefs\ToolCapacity.xml" />
+    <Content Include="1.6\Patches\AdvancedBiomesPatch.xml" />
+    <Content Include="1.6\Patches\AlphaBiomesPatch.xml" />
+    <Content Include="1.6\Patches\CaravansPatch.xml" />
+    <Content Include="1.6\Patches\CatCrossbreeding.xml" />
+    <Content Include="1.6\Patches\DogCrossbreeding.xml" />
+    <Content Include="1.6\Patches\NocturnalAnimalsPatch.xml" />
+    <Content Include="About\About.xml" />
+    <Content Include="About\preview.png" />
+    <Content Include="About\PublishedFileId.txt" />
+    <Content Include="Languages\English\Keyed\Misc_Gameplay.xml" />
+    <Content Include="lib\Assembly-CSharp.dll" />
+    <Content Include="LoadFolders.xml" />
+    <Content Include="Sounds\Pawns\Alligator\Pawn_Alligator_Angry.ogg" />
+    <Content Include="Sounds\Pawns\Alligator\Pawn_Alligator_Call.ogg" />
+    <Content Include="Sounds\Pawns\ArcticCoyote\Pawn_Coyote_Angry.ogg" />
+    <Content Include="Sounds\Pawns\ArcticCoyote\Pawn_Coyote_Call.ogg" />
+    <Content Include="Sounds\Pawns\ArcticCoyote\Pawn_Coyote_Wounded.ogg" />
+    <Content Include="Sounds\Pawns\Coyote\Pawn_Coyote_Angry.ogg" />
+    <Content Include="Sounds\Pawns\Coyote\Pawn_Coyote_Call.ogg" />
+    <Content Include="Sounds\Pawns\Coyote\Pawn_Coyote_Wounded.ogg" />
+    <Content Include="Sounds\Pawns\Crocodile\Pawn_Crocodile_Angry.ogg" />
+    <Content Include="Sounds\Pawns\Crocodile\Pawn_Crocodile_Call.ogg" />
+    <Content Include="Sounds\Pawns\Gorilla\Pawn_Gorilla_Angry.ogg" />
+    <Content Include="Sounds\Pawns\Gorilla\Pawn_Gorilla_Call.ogg" />
+    <Content Include="Sounds\Pawns\Gorilla\Pawn_Gorilla_Death.ogg" />
+    <Content Include="Sounds\Pawns\Gorilla\Pawn_Gorilla_Wounded.ogg" />
+    <Content Include="Sounds\Pawns\Hippopotamus\Pawn_Hippopotamus_Angry.ogg" />
+    <Content Include="Sounds\Pawns\Hippopotamus\Pawn_Hippopotamus_Call.ogg" />
+    <Content Include="Sounds\Pawns\Hippopotamus\Pawn_Hippopotamus_Death.ogg" />
+    <Content Include="Sounds\Pawns\Hippopotamus\Pawn_Hippopotamus_Wounded.ogg" />
+    <Content Include="Sounds\Pawns\Hyena\Pawn_Hyena_Angry.ogg" />
+    <Content Include="Sounds\Pawns\Hyena\Pawn_Hyena_Call.ogg" />
+    <Content Include="Sounds\Pawns\Hyena\Pawn_Hyena_Death.ogg" />
+    <Content Include="Sounds\Pawns\Hyena\Pawn_Hyena_Wounded.ogg" />
+    <Content Include="Sounds\Pawns\Lion\Pawn_Lion_Angry.ogg" />
+    <Content Include="Sounds\Pawns\Lion\Pawn_Lion_Call.ogg" />
+    <Content Include="Sounds\Pawns\Lion\Pawn_Lion_Death.ogg" />
+    <Content Include="Sounds\Pawns\Lion\Pawn_Lion_Wounded.ogg" />
+    <Content Include="Sounds\Pawns\Penguin\Pawn_Penguin_Angry.ogg" />
+    <Content Include="Sounds\Pawns\Penguin\Pawn_Penguin_Call.ogg" />
+    <Content Include="Sounds\Pawns\Penguin\Pawn_Penguin_Death.ogg" />
+    <Content Include="Sounds\Pawns\Penguin\Pawn_Penguin_Wounded.ogg" />
+    <Content Include="Sounds\Pawns\Rattlesnake\Pawn_Rattlesnake_Angry.ogg" />
+    <Content Include="Sounds\Pawns\Rattlesnake\Pawn_Rattlesnake_Call.ogg" />
+    <Content Include="Sounds\Pawns\Seal\Pawn_Seal_Angry.ogg" />
+    <Content Include="Sounds\Pawns\Seal\Pawn_Seal_Call.ogg" />
+    <Content Include="Sounds\Pawns\Seal\Pawn_Seal_Death.ogg" />
+    <Content Include="Sounds\Pawns\Seal\Pawn_Seal_Wounded.ogg" />
+    <Content Include="Sounds\Pawns\Tiger\Pawn_Tiger_Angry.ogg" />
+    <Content Include="Sounds\Pawns\Tiger\Pawn_Tiger_Call.ogg" />
+    <Content Include="Sounds\Pawns\Tiger\Pawn_Tiger_Death.ogg" />
+    <Content Include="Sounds\Pawns\Tiger\Pawn_Tiger_Wounded.ogg" />
+    <Content Include="Sounds\Pawns\Walrus\Pawn_Walrus_Angry.ogg" />
+    <Content Include="Sounds\Pawns\Walrus\Pawn_Walrus_Call.ogg" />
+    <Content Include="Sounds\Pawns\Walrus\Pawn_Walrus_Death.ogg" />
+    <Content Include="Sounds\Pawns\Walrus\Pawn_Walrus_Wounded.ogg" />
+    <Content Include="Sounds\Pawns\Wildebeest\Pawn_Wildebeest_Angry.ogg" />
+    <Content Include="Sounds\Pawns\Wildebeest\Pawn_Wildebeest_Call.ogg" />
+    <Content Include="Sounds\Pawns\Wildebeest\Pawn_Wildebeest_Death.ogg" />
+    <Content Include="Sounds\Pawns\Wildebeest\Pawn_Wildebeest_Wounded.ogg" />
+    <Content Include="Sounds\Pawns\Zebra\Pawn_Zebra_Angry.ogg" />
+    <Content Include="Sounds\Pawns\Zebra\Pawn_Zebra_Call.ogg" />
+    <Content Include="Sounds\Pawns\Zebra\Pawn_Zebra_Death.ogg" />
+    <Content Include="Sounds\Pawns\Zebra\Pawn_Zebra_Wounded.ogg" />
+    <Content Include="Textures\Things\Building\BeaverDam\BeaverDamA.png" />
+    <Content Include="Textures\Things\Building\BeaverDam\BeaverDamB.png" />
+    <Content Include="Textures\Things\Building\BeaverDam\BeaverDamC.png" />
+    <Content Include="Textures\Things\Item\Resource\AEXP_Fish\AEXP_Fish_a.png" />
+    <Content Include="Textures\Things\Item\Resource\AEXP_Fish\AEXP_Fish_b.png" />
+    <Content Include="Textures\Things\Item\Resource\AEXP_Fish\AEXP_Fish_c.png" />
+    <Content Include="Textures\Things\Item\Resource\AEXP_TigerLeather\AEXP_TigerLeather_a.png" />
+    <Content Include="Textures\Things\Item\Resource\AEXP_TigerLeather\AEXP_TigerLeather_b.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_AmericanBeaver\AmericanBeaver_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_AmericanBeaver\AmericanBeaver_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_AmericanBeaver\AmericanBeaver_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_AmericanBeaver\Dessicated_AmericanBeaver_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Anaconda\Anaconda_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Anaconda\Anaconda_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Anaconda\Anaconda_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Anaconda\Dessicated_Anaconda_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_ArcticCoyote\ArcticCoyote_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_ArcticCoyote\ArcticCoyote_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_ArcticCoyote\ArcticCoyote_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_ArcticCoyote\Dessicated_ArcticCoyote_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Beagle\Beagle_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Beagle\Beagle_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Beagle\Beagle_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_BlackBear\BlackBear_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_BlackBear\BlackBear_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_BlackBear\BlackBear_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_BlackBear\Dessicated_BlackBear_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Boombat\AEXP_Boombat_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Boombat\AEXP_Boombat_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Boombat\AEXP_Boombat_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Boombat\AEXP_Dessicated_Boombat_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Camel\CamelPack_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Camel\CamelPack_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Camel\CamelPack_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Camel\Camel_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Camel\Camel_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Camel\Camel_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Camel\Dessicated_Camel_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatAbyssinian\CatAbyssinian_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatAbyssinian\CatAbyssinian_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatAbyssinian\CatAbyssinian_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatBengal\CatBengal_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatBengal\CatBengal_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatBengal\CatBengal_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatBritishShorthair\CatBritishShorthair_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatBritishShorthair\CatBritishShorthair_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatBritishShorthair\CatBritishShorthair_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatMaineCoon\CatMaineCoon_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatMaineCoon\CatMaineCoon_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatMaineCoon\CatMaineCoon_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatMunchkin\CatMunchkin_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatMunchkin\CatMunchkin_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatMunchkin\CatMunchkin_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatNorwegian\CatNorwegian_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatNorwegian\CatNorwegian_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatNorwegian\CatNorwegian_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatPersian\CatPersian_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatPersian\CatPersian_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatPersian\CatPersian_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatSiamese\CatSiamese_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatSiamese\CatSiamese_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatSiamese\CatSiamese_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatSomali\CatSomali_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatSomali\CatSomali_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatSomali\CatSomali_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatSphynx\CatSphynx_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatSphynx\CatSphynx_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_CatSphynx\CatSphynx_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Cheetah\Cheetah_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Cheetah\Cheetah_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Cheetah\Cheetah_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Cheetah\Dessicated_Cheetah_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Chihuahua\Chihuahua_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Chihuahua\Chihuahua_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Chihuahua\Chihuahua_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Corgi\Corgi_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Corgi\Corgi_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Corgi\Corgi_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Coyote\Coyote_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Coyote\Coyote_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Coyote\Coyote_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Coyote\Dessicated_Coyote_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Crocodile\Crocodile_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Crocodile\Crocodile_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Crocodile\Crocodile_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Crocodile\Dessicated_Crocodile_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_DesertTortoise\DesertTortoise_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_DesertTortoise\DesertTortoise_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_DesertTortoise\DesertTortoise_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_DesertTortoise\Dessicated_DesertTortoise_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_FrenchBulldog\FrenchBulldog_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_FrenchBulldog\FrenchBulldog_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_FrenchBulldog\FrenchBulldog_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_GermanShepherd\GermanShepherd_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_GermanShepherd\GermanShepherd_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_GermanShepherd\GermanShepherd_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_GilaMonster\Dessicated_GilaMonster_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_GilaMonster\GilaMonster_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_GilaMonster\GilaMonster_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_GilaMonster\GilaMonster_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Giraffe\Dessicated_Giraffe_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Giraffe\Giraffe_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Giraffe\Giraffe_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Giraffe\Giraffe_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_GreatDane\GreatDane_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_GreatDane\GreatDane_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_GreatDane\GreatDane_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Hedgehog\Dessicated_Hedgehog_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Hedgehog\Hedgehog_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Hedgehog\Hedgehog_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Hedgehog\Hedgehog_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Hyena\Dessicated_Hyena_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Hyena\Hyena_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Hyena\Hyena_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Hyena\Hyena_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_IndianElephant\Dessicated_IndianElephant_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_IndianElephant\IndianElephantPack_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_IndianElephant\IndianElephantPack_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_IndianElephant\IndianElephantPack_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_IndianElephant\IndianElephant_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_IndianElephant\IndianElephant_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_IndianElephant\IndianElephant_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Jaguar\Dessicated_Jaguar_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Jaguar\Jaguar_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Jaguar\Jaguar_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Jaguar\Jaguar_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Kangaroo\AEXP_Dessicated_Kangaroo_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Kangaroo\AEXP_Kangaroo_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Kangaroo\AEXP_Kangaroo_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Kangaroo\AEXP_Kangaroo_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Koala\AEXP_Dessicated_Koala_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Koala\AEXP_Koala_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Koala\AEXP_Koala_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Koala\AEXP_Koala_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Lemur\Dessicated_Lemur_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Lemur\Lemur_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Lemur\Lemur_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Lemur\Lemur_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Lion\Dessicated_Lion_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Lion\LionFemale_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Lion\LionFemale_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Lion\LionFemale_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Lion\LionMale_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Lion\LionMale_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Lion\LionMale_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Mandrill\Dessicated_Mandrill_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Mandrill\Mandrill_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Mandrill\Mandrill_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Mandrill\Mandrill_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Megascorpion\Dessicated_Megascorpion_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Megascorpion\Megascorpion_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Megascorpion\Megascorpion_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Megascorpion\Megascorpion_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_MegaWolverine\Dessicated_MegaWolverine_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_MegaWolverine\MegaWolverine_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_MegaWolverine\MegaWolverine_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_MegaWolverine\MegaWolverine_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Platypus\AEXP_Dessicated_Platypus_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Platypus\AEXP_Platypus_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Platypus\AEXP_Platypus_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Platypus\AEXP_Platypus_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Poodle\Poodle_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Poodle\Poodle_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Poodle\Poodle_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Pug\Pug_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Pug\Pug_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Pug\Pug_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Rattlesnake\Dessicated_Rattlesnake_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Rattlesnake\Rattlesnake_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Rattlesnake\Rattlesnake_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Rattlesnake\Rattlesnake_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_RedPanda\Dessicated_RedPanda_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_RedPanda\RedPanda_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_RedPanda\RedPanda_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_RedPanda\RedPanda_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Rottweiler\Rottweiler_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Rottweiler\Rottweiler_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Rottweiler\Rottweiler_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_ShihTzu\ShihTzu_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_ShihTzu\ShihTzu_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_ShihTzu\ShihTzu_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Tapir\Dessicated_Tapir_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Tapir\Tapir_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Tapir\Tapir_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Tapir\Tapir_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_WelshTerrier\WelshTerrier_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_WelshTerrier\WelshTerrier_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_WelshTerrier\WelshTerrier_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Wildebeest\Dessicated_Wildebeest_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Wildebeest\WildebeestPack_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Wildebeest\WildebeestPack_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Wildebeest\WildebeestPack_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Wildebeest\Wildebeest_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Wildebeest\Wildebeest_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Wildebeest\Wildebeest_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_WildGoose\Dessicated_WildGoose_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_WildGoose\WildGoose_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_WildGoose\WildGoose_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_WildGoose\WildGoose_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Zebra\Dessicated_Zebra_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Zebra\ZebraPack_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Zebra\ZebraPack_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Zebra\ZebraPack_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Zebra\Zebra_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Zebra\Zebra_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\AEXP_Zebra\Zebra_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Alligator\Alligator_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Alligator\Alligator_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Alligator\Alligator_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Alligator\Dessicated_Alligator_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Alligator\Dessicated_Alligator_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Alligator\Dessicated_Alligator_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Badger\Badger_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Badger\Badger_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Badger\Badger_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Badger\Dessicated_Badger_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Badger\Dessicated_Badger_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Badger\Dessicated_Badger_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Gorilla\Dessicated_Gorilla_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Gorilla\Dessicated_Gorilla_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Gorilla\Dessicated_Gorilla_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Gorilla\Gorilla_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Gorilla\Gorilla_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Gorilla\Gorilla_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Hippo\Dessicated_Hippo_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Hippo\Dessicated_Hippo_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Hippo\Dessicated_Hippo_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Hippo\Hippo_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Hippo\Hippo_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Hippo\Hippo_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Moose\Dessicated_MooseFemale_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Moose\Dessicated_MooseMale_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Moose\MooseFemale_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Moose\MooseFemale_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Moose\MooseFemale_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Moose\MooseMale_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Moose\MooseMale_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Moose\MooseMale_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Muskox\Dessicated_Muskox_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Muskox\Dessicated_Muskox_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Muskox\Dessicated_Muskox_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Muskox\MuskoxPack_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Muskox\MuskoxPack_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Muskox\MuskoxPack_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Muskox\Muskox_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Muskox\Muskox_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Muskox\Muskox_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Otter\Dessicated_Otter_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Otter\Dessicated_Otter_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Otter\Dessicated_Otter_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Otter\Otter_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Otter\Otter_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Otter\Otter_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Penguin\Dessicated_Penguin_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Penguin\Dessicated_Penguin_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Penguin\Dessicated_Penguin_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Penguin\PenguinBaby_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Penguin\PenguinBaby_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Penguin\PenguinBaby_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Penguin\Penguin_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Penguin\Penguin_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Penguin\Penguin_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Porcupine\Dessicated_Porcupine_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Porcupine\Dessicated_Porcupine_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Porcupine\Dessicated_Porcupine_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Porcupine\Porcupine_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Porcupine\Porcupine_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Porcupine\Porcupine_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Seal\Dessicated_Seal_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Seal\Dessicated_Seal_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Seal\Dessicated_Seal_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Seal\Seal_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Seal\Seal_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Seal\Seal_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Tiger\Dessicated_Tiger_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Tiger\Dessicated_Tiger_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Tiger\Dessicated_Tiger_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Tiger\Tiger_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Tiger\Tiger_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Tiger\Tiger_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Walrus\Dessicated_Walrus_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Walrus\Dessicated_Walrus_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Walrus\Dessicated_Walrus_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Walrus\Walrus_east.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Walrus\Walrus_north.png" />
+    <Content Include="Textures\Things\Pawn\Animal\Walrus\Walrus_south.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\SphynxVariantsPROTOTYPE.csproj.AssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
