@@ -138,7 +138,7 @@
     <Content Include="Textures\Things\Pawn\Animal\ChocolateSphynx\ChocolateSphynx_north.png" />
     <Content Include="Textures\Things\Pawn\Animal\ChocolateSphynx\ChocolateSphynx_south.png" />
     <Content Include="Textures\Things\Pawn\Animal\CreamSphynx\CreamSphynx_north.png" />
-    <Content Include="Textures\Things\Pawn\Animal\CreamSphynx\TabbySphynx_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\CreamSphynx\CreamSphynx_south.png" />
     <Content Include="Textures\Things\Pawn\Animal\LilacSphynx\LilacSphynx_north.png" />
     <Content Include="Textures\Things\Pawn\Animal\BlackSphynx\BlackSphynx_east.png" />
     <Content Include="Textures\Things\Pawn\Animal\BlueSphynx\BlueSphynx_east.png" />
