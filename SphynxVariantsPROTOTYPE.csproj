@@ -142,7 +142,7 @@
     <Content Include="Textures\Things\Pawn\Animal\LilacSphynx\LilacSphynx_north.png" />
     <Content Include="Textures\Things\Pawn\Animal\BlackSphynx\BlackSphynx_east.png" />
     <Content Include="Textures\Things\Pawn\Animal\BlueSphynx\BlueSphynx_east.png" />
-    <Content Include="Textures\Things\Pawn\Animal\LilacSphynx\TabbySphynx_south.png" />
+    <Content Include="Textures\Things\Pawn\Animal\LilacSphynx\LilacSphynx_south.png" />
     <Content Include="Textures\Things\Pawn\Animal\PlainSphynx\PlainSphynx_east.png" />
     <Content Include="Textures\Things\Pawn\Animal\PlainSphynx\PlainSphynx_north.png" />
     <Content Include="Textures\Things\Pawn\Animal\PlainSphynx\PlainSphynx_south.png" />
