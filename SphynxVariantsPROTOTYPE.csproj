@@ -119,6 +119,7 @@
     <Content Include="1.6\Patches\DogCrossbreeding.xml" />
     <Content Include="1.6\Patches\NocturnalAnimalsPatch.xml" />
     <Content Include="About\About.xml" />
+    <Content Include="About\ModIcon.png" />
     <Content Include="About\preview.png" />
     <Content Include="About\PublishedFileId.txt" />
     <Content Include="Languages\English\Keyed\Misc_Gameplay.xml" />
