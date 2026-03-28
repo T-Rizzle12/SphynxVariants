@@ -11,6 +11,60 @@
 			<ComfyTemperatureMin>0</ComfyTemperatureMin>
 			<Wildness>0</Wildness>
 		</statBases>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<soundEating>PredatorSmall_Eat</soundEating>
+			<predator>true</predator>
+			<useMeatFrom>Cat</useMeatFrom>
+			<maxPreyBodySize>0.25</maxPreyBodySize>
+			<baseBodySize>0.32</baseBodySize>
+			<baseHungerRate>0.15</baseHungerRate>
+			<baseHealthScale>0.42</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<petness>1</petness>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
+			<canCrossBreedWith>
+				<li>Cat</li>
+			</canCrossBreedWith>
+			<trainability>Intermediate</trainability>
+			<nuzzleMtbHours>12</nuzzleMtbHours>
+			<gestationPeriodDays>10</gestationPeriodDays>
+			<nameOnTameChance>1</nameOnTameChance>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>10</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_Cat_Injured</soundWounded>
+					<soundDeath>Pawn_Cat_Death</soundDeath>
+					<soundCall>Pawn_Cat_Call</soundCall>
+					<soundAngry>Pawn_Cat_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
 		<tools>
 			<li>
 				<label>left claw</label>
@@ -75,60 +129,6 @@
 				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
-		<race>
-			<body>QuadrupedAnimalWithPawsAndTail</body>
-			<soundEating>PredatorSmall_Eat</soundEating>
-			<predator>true</predator>
-			<useMeatFrom>Cat</useMeatFrom>
-			<maxPreyBodySize>0.25</maxPreyBodySize>
-			<baseBodySize>0.32</baseBodySize>
-			<baseHungerRate>0.15</baseHungerRate>
-			<baseHealthScale>0.42</baseHealthScale>
-			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-			<leatherDef>Leather_Light</leatherDef>
-			<petness>1</petness>
-			<specialTrainables>
-				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
-			</specialTrainables>
-			<canCrossBreedWith>
-				<li>Cat</li>
-			</canCrossBreedWith>
-			<trainability>Intermediate</trainability>
-			<nuzzleMtbHours>12</nuzzleMtbHours>
-			<gestationPeriodDays>10</gestationPeriodDays>
-			<nameOnTameChance>1</nameOnTameChance>
-			<litterSizeCurve>
-				<points>
-					<li>(0.5, 0)</li>
-					<li>(1, 1)</li>
-					<li>(2, 1.7)</li>
-					<li>(3, 0.7)</li>
-					<li>(3.5, 0)</li>
-				</points>
-			</litterSizeCurve>
-			<lifeExpectancy>10</lifeExpectancy>
-			<lifeStageAges>
-				<li>
-					<def>AnimalBaby</def>
-					<minAge>0</minAge>
-				</li>
-				<li>
-					<def>AnimalJuvenile</def>
-					<minAge>0.15</minAge>
-				</li>
-				<li>
-					<def>AnimalAdult</def>
-					<minAge>0.4</minAge>
-					<soundWounded>Pawn_Cat_Injured</soundWounded>
-					<soundDeath>Pawn_Cat_Death</soundDeath>
-					<soundCall>Pawn_Cat_Call</soundCall>
-					<soundAngry>Pawn_Cat_Angry</soundAngry>
-				</li>
-			</lifeStageAges>
-			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-		</race>
 		<tradeTags>
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
@@ -140,7 +140,7 @@
 		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>PlainSphynx</defName>
+		<defName>Plain_Sphynx</defName>
 		<label>sphynx cat</label>
 		<race>PlainSphynx</race>
 		<combatPower>35</combatPower>
