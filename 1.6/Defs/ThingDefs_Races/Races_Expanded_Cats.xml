@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!-- ==========================CatSphynx============================ -->
+	<!-- ==========================PlainSphynx============================ -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>Plain_Sphynx</defName>
 		<label>Sphynx Cat</label>
