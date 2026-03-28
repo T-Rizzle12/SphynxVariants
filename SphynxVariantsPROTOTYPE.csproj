@@ -69,12 +69,6 @@
     <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Anaconda.xml" />
     <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Lion.xml" />
     <Content Include="1.6\Defs\ThingDefs_Races\Races_Expanded_Cats.xml" />
-    <Content Include="1.6\Patches\AdvancedBiomesPatch.xml" />
-    <Content Include="1.6\Patches\AlphaBiomesPatch.xml" />
-    <Content Include="1.6\Patches\CaravansPatch.xml" />
-    <Content Include="1.6\Patches\CatCrossbreeding.xml" />
-    <Content Include="1.6\Patches\DogCrossbreeding.xml" />
-    <Content Include="1.6\Patches\NocturnalAnimalsPatch.xml" />
     <Content Include="About\About.xml" />
     <Content Include="About\ModIcon.png" />
     <Content Include="About\preview.png" />
