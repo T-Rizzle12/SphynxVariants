@@ -49,23 +49,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="1.6NotOdyssey\Defs\GenericToggleableAnimalDefs\GenericToggleableAnimalDefs_NO.xml" />
-    <Content Include="1.6NotOdyssey\Defs\RiverNeedingAnimalDefs\RiverNeedingAnimalDefs_NO.xml" />
-    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Items\Items_Exotic.xml" />
-    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Items\Items_Resource_AnimalProduct_NO.xml" />
-    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Items\Items_Resource_Misc.xml" />
-    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Items\Items_Resource_WoolLeather_NO.xml" />
-    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Races\Races_Expanded_AridShrubland_NO.xml" />
-    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Races\Races_Expanded_BorealForest_NO.xml" />
-    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Races\Races_Expanded_IceSheet_NO.xml" />
-    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Races\Races_Expanded_TemperateForest_NO.xml" />
-    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Races\Races_Expanded_TropicalRainforest_NO.xml" />
-    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Races\Races_Expanded_TropicalSwamp_NO.xml" />
-    <Content Include="1.6NotOdyssey\Defs\ThingDefs_Races\Races_Expanded_Tundra_NO.xml" />
-    <Content Include="1.6NotOdyssey\Patches\AdvancedBiomesPatch_NO.xml" />
-    <Content Include="1.6NotOdyssey\Patches\AlphaBiomesPatch_NO.xml" />
-    <Content Include="1.6NotOdyssey\Patches\CaravansPatch_NO.xml" />
-    <Content Include="1.6NotOdyssey\Patches\NocturnalAnimalsPatch_NO.xml" />
     <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Anaconda.xml" />
     <Content Include="1.6\Defs\SoundDefs\Pawn_Animal_Lion.xml" />
     <Content Include="1.6\Defs\ThingDefs_Races\Races_Expanded_Cats.xml" />
