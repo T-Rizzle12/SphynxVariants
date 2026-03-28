@@ -2,9 +2,9 @@
 <Defs>
 	<!-- ==========================CatSphynx============================ -->
 	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
-		<defName>AEXP_CatSphynx</defName>
+		<defName>Plain_Sphynx</defName>
 		<label>sphynx cat</label>
-		<description>A cat known for it's lack of fur, developed due to selective breeding. Being warm to the touch, they lose body temperature easily which makes it seek out heat sources.</description>
+		<description>Hairless and warm, the sphynx cat is a mutation of the usual cats found on the Rimworld through selective breeding. They make cozy and intelligent companions, as long as you keep them warm and fed of course.</description>
 		<statBases>
 			<MoveSpeed>4.4</MoveSpeed>
 			<MarketValue>200</MarketValue>
@@ -91,18 +91,9 @@
 				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
 			</specialTrainables>
 			<canCrossBreedWith>
-				<li>AEXP_CatAbyssinian</li>
 				<li>Cat</li>
-				<li>AEXP_CatBengal</li>
-				<li>AEXP_CatBritishShorthair</li>
-				<li>AEXP_CatMaineCoon</li>
-				<li>AEXP_CatMunchkin</li>
-				<li>AEXP_CatNorwegianForest</li>
-				<li>AEXP_CatPersian</li>
-				<li>AEXP_CatSiamese</li>
-				<li>AEXP_CatSomali</li>
 			</canCrossBreedWith>
-			<trainability>None</trainability>
+			<trainability>Intermediate</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
@@ -149,16 +140,16 @@
 		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>AEXP_CatSphynx</defName>
+		<defName>PlainSphynx</defName>
 		<label>sphynx cat</label>
-		<race>AEXP_CatSphynx</race>
+		<race>PlainSphynx</race>
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.3</ecoSystemWeight>
 		<lifeStages>
 			<li>
 				<label>sphynx kitten</label>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_CatSphynx/CatSphynx</texPath>
+					<texPath>Things/Pawn/Animal/PlainSphynx</texPath>
 					<drawSize>0.6</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -168,7 +159,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_CatSphynx/CatSphynx</texPath>
+					<texPath>Things/Pawn/Animal/PlainSphynx</texPath>
 					<drawSize>0.8</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -178,7 +169,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AEXP_CatSphynx/CatSphynx</texPath>
+					<texPath>Things/Pawn/Animal/PlainSphynx</texPath>
 					<drawSize>1.0</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
