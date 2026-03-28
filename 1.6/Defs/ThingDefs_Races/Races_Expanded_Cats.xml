@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<!-- ==========================CatSphynx============================ -->
-	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
+	<ThingDef ParentName="AnimalThingBase">
 		<defName>Plain_Sphynx</defName>
 		<label>sphynx cat</label>
 		<description>Hairless and warm, the sphynx cat is a mutation of the usual cats found on the Rimworld through selective breeding. They make cozy and intelligent companions, as long as you keep them warm and fed of course.</description>
