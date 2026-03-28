@@ -142,7 +142,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>Plain_Sphynx</defName>
 		<label>sphynx cat</label>
-		<race>PlainSphynx</race>
+		<race>Plain_Sphynx</race>
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.3</ecoSystemWeight>
 		<lifeStages>
