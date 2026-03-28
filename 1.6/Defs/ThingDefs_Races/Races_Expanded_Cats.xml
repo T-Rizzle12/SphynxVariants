@@ -3,7 +3,7 @@
 	<!-- ==========================CatSphynx============================ -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>Plain_Sphynx</defName>
-		<label>sphynx cat</label>
+		<label>Sphynx Cat</label>
 		<description>Hairless and warm, the sphynx cat is a mutation of the usual cats found on the Rimworld through selective breeding. They make cozy and intelligent companions, as long as you keep them warm and fed of course.</description>
 		<statBases>
 			<MoveSpeed>4.4</MoveSpeed>
@@ -42,7 +42,7 @@
 					<li>(3.5, 0)</li>
 				</points>
 			</litterSizeCurve>
-			<lifeExpectancy>10</lifeExpectancy>
+			<lifeExpectancy>15</lifeExpectancy>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
