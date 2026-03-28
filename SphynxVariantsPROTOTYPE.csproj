@@ -55,7 +55,6 @@
     <Content Include="About\About.xml" />
     <Content Include="About\ModIcon.png" />
     <Content Include="About\preview.png" />
-    <Content Include="About\PublishedFileId.txt" />
     <Content Include="Languages\English\Keyed\Misc_Gameplay.xml" />
     <Content Include="lib\Assembly-CSharp.dll" />
     <Content Include="LoadFolders.xml" />
