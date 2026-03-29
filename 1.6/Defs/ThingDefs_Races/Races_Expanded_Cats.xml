@@ -2,7 +2,7 @@
 <Defs>
 	<!-- ==========================PlainSphynx============================ -->
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>Plain_Sphynx</defName>
+		<defName>Base_Sphynx</defName>
 		<label>Sphynx Cat</label>
 		<description>Hairless and warm, the sphynx cat is a mutation of the usual cats found on the Rimworld through selective breeding. They make cozy and intelligent companions, as long as you keep them warm and fed of course.</description>
 		<statBases>
@@ -143,7 +143,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>Bicolor_Sphynx</defName>
 		<label>sphynx cat</label>
-		<race>Plain_Sphynx</race>
+		<race>Base_Sphynx</race>
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.3</ecoSystemWeight>
 		<lifeStages>
@@ -187,7 +187,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>Black_Sphynx</defName>
 		<label>sphynx cat</label>
-		<race>Plain_Sphynx</race>
+		<race>Base_Sphynx</race>
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.3</ecoSystemWeight>
 		<lifeStages>
@@ -231,7 +231,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>Blue_Sphynx</defName>
 		<label>sphynx cat</label>
-		<race>Plain_Sphynx</race>
+		<race>Base_Sphynx</race>
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.3</ecoSystemWeight>
 		<lifeStages>
@@ -275,7 +275,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>Calico_Sphynx</defName>
 		<label>sphynx cat</label>
-		<race>Plain_Sphynx</race>
+		<race>Base_Sphynx</race>
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.3</ecoSystemWeight>
 		<lifeStages>
@@ -319,7 +319,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>Chocolate_Sphynx</defName>
 		<label>sphynx cat</label>
-		<race>Plain_Sphynx</race>
+		<race>Base_Sphynx</race>
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.3</ecoSystemWeight>
 		<lifeStages>
@@ -363,7 +363,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>Cream_Sphynx</defName>
 		<label>sphynx cat</label>
-		<race>Plain_Sphynx</race>
+		<race>Base_Sphynx</race>
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.3</ecoSystemWeight>
 		<lifeStages>
@@ -407,7 +407,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>Lilac_Sphynx</defName>
 		<label>sphynx cat</label>
-		<race>Plain_Sphynx</race>
+		<race>Base_Sphynx</race>
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.3</ecoSystemWeight>
 		<lifeStages>
@@ -451,7 +451,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>Plain_Sphynx</defName>
 		<label>sphynx cat</label>
-		<race>Plain_Sphynx</race>
+		<race>Base_Sphynx</race>
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.3</ecoSystemWeight>
 		<lifeStages>
@@ -495,7 +495,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>Tabby_Sphynx</defName>
 		<label>sphynx cat</label>
-		<race>Plain_Sphynx</race>
+		<race>Base_Sphynx</race>
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.3</ecoSystemWeight>
 		<lifeStages>
@@ -539,7 +539,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>White_Sphynx</defName>
 		<label>sphynx cat</label>
-		<race>Plain_Sphynx</race>
+		<race>Base_Sphynx</race>
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.3</ecoSystemWeight>
 		<lifeStages>
