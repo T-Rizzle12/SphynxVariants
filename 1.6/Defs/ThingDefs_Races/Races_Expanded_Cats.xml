@@ -149,7 +149,7 @@
 			<li>
 				<label>sphynx kitten</label>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/PlainSphynx</texPath>
+					<texPath>Things/Pawn/Animal/PlainSphynx/PlainSphynx</texPath>
 					<drawSize>0.6</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -159,7 +159,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/PlainSphynx</texPath>
+					<texPath>Things/Pawn/Animal/PlainSphynx/PlainSphynx</texPath>
 					<drawSize>0.8</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -169,7 +169,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/PlainSphynx</texPath>
+					<texPath>Things/Pawn/Animal/PlainSphynx/PlainSphynx</texPath>
 					<drawSize>1.0</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
