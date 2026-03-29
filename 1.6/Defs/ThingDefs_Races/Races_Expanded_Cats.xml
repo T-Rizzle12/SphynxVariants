@@ -8,7 +8,8 @@
 		<statBases>
 			<MoveSpeed>4.4</MoveSpeed>
 			<MarketValue>200</MarketValue>
-			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMin>18</ComfyTemperatureMin>
+			<ComfyTemperatureMax>35</ComfyTemperatureMax>
 			<Wildness>0</Wildness>
 		</statBases>
 		<race>
