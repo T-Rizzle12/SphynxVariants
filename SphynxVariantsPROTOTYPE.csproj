@@ -49,7 +49,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="1.6\Defs\ThingDefs_Races\Races_Expanded_Cats.xml" />
+    <Content Include="1.6\Defs\ThingDefs_Races\Races_Sphynx.xml" />
     <Content Include="About\About.xml" />
     <Content Include="About\ModIcon.png" />
     <Content Include="About\preview.png" />
