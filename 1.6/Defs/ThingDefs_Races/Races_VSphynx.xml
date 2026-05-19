@@ -50,10 +50,6 @@
 					<minAge>0</minAge>
 				</li>
 				<li>
-					<def>AnimalJuvenile</def>
-					<minAge>0.15</minAge>
-				</li>
-				<li>
 					<def>AnimalAdult</def>
 					<minAge>0.4</minAge>
 					<soundWounded>Pawn_Cat_Injured</soundWounded>
@@ -134,11 +130,6 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalPet</li>
 		</tradeTags>
-		<modExtensions>
-			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
-				<crossBreedKindDef>Random</crossBreedKindDef>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 	<!-- ==========================Sphynx-PawnKindDef============================ -->
@@ -188,16 +179,6 @@
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
 					<drawSize>0.6</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/PlainSphynx/PlainSphynx</texPath>
-					<drawSize>0.8</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
-					<drawSize>0.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
